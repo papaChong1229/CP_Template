@@ -83,7 +83,7 @@ public:
     }
 
     // (minCost, maxFlow)
-    pair<ll, ll> computeMinCostFlow() {
+    pair<ll, ll> calcMCF() {
         spfa(); // init h
 
         ll minCost = 0, maxFlow = 0;
